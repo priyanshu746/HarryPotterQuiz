@@ -1,7 +1,7 @@
 var readlineSync = require('readline-sync');
 console.log('Welcome to ! HARRY POTTER ! Quiz...')
 var userName = readlineSync.question('Hi, your name please');
-// console.log('Do you have what it takes to play with life and death?');
+
 console.log('Lets Start !! with '+userName)
 readlineSync.keyInPause('Press any key from a-z to start Quiz')
  console.log('Round #1: Spells ')
