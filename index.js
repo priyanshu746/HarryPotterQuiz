@@ -110,6 +110,7 @@ console.log('\n');
 
 if(score>=4){
   console.log('Greetings!! ' + userName + ' You are eligible for Round 2' );
+  readlineSync.keyInPause('Are you ready for Round 2')
   console.log('------------------------------')
   console.log('Round #2: Houses of Hogwarts');
   for(var i=0;i<question2.length;i++){
